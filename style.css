@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #C4C1A4;
+}
+
+canvas {
+    background-color: #FAF3F0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 30);
+}
+
