@@ -35,7 +35,7 @@ canvas {
     margin-bottom: 20px;
 }
 
-.button__tool {
+.button__tool, .button__size {
     height: 45px;
     border: none;
     border-radius: 5px;
@@ -50,8 +50,8 @@ canvas {
     font-size: 1.8rem;
 }
 
-.button__tool:hover {
-    background-color: aquamarine;
+.button__tool:hover, .button__size:hover {
+    background-color: #f2f2f2;
 }
 
 .input__color {
@@ -65,5 +65,33 @@ canvas {
 
 .input__color::-webkit-color-swatch {
     border-radius: 100px;
+}
+
+.button__size {
+    padding: 10px;
+    height: auto;
+}
+
+.button__size > span {
+    width: 100%;
+    background-color: black;
+    border-radius: 100px;
+    display: block;
+}
+
+.button__size[data-size="5"] > span {
+    height: 5px;
+}
+
+.button__size[data-size="10"] > span {
+    height: 10px;
+}
+
+.button__size[data-size="20"] > span {
+    height: 20px;
+}
+
+.button__size[data-size="30"] > span {
+    height: 30px;
 }
 
