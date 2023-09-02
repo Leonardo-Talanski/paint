@@ -8,10 +8,10 @@ O Paint Online é uma ótima ferramenta para usuários iniciantes que desejam ap
 
 Aqui estão algumas das principais características do Paint Online:
 
-. Ferramentas de desenho: pincéis, lápis, canetas, borrachas e formas geométricas
-. Adição de texto
-. Aplicar efeitos especiais
-. Salvar imagens em vários formatos
+. Ferramentas de desenho: pincéis, lápis, canetas, borrachas e formas geométricas <br>
+. Adição de texto <br>
+. Aplicar efeitos especiais <br>
+. Salvar imagens em vários formatos <br>
 
 Status do Projeto :
 
