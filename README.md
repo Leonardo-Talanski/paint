@@ -13,7 +13,7 @@ Aqui estão algumas das principais características do Paint Online:
 . Aplicar efeitos especiais <br>
 . Salvar imagens em vários formatos <br>
 
-Status do Projeto :
+# Status do Projeto 
 
 ![Badge Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EMDESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
