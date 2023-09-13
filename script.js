@@ -8,13 +8,18 @@ const buttonClear = document.querySelector(".button__clear")
 
 let brushSize = 50
 
+ctx.fillStyle = "#000"
+
 canvas.addEventListener("mousedown", (event) => { 
     const { clientX, clientY } = event
     draw(clientX, clientY)
 })
 
 const draw = (x, y) => {
-    ctx.fillStyle = "#000"
-    ctx.fillRect (x, y, brushSize, brushSize)
+
+    ctx.beginPath()
+
+    ctx.arc(x-canvas.offsetLeft, y- canvas.offsetTop, brushSize, 0, 90)
+    
 }
 
