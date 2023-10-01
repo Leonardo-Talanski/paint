@@ -10,9 +10,21 @@ let brushSize = 20
 
 ctx.fillStyle = "#000"
 
-canvas.addEventListener("mousedown", (event) => { 
-    const { clientX, clientY } = event
+let isPainting = false
+
+canvas.addEventListener("mousedown", ({ clientX, clientY }) => {
     draw(clientX, clientY)
+    isPainting = true
+})
+
+canvas.addEventListener("mousemove", ({ clientX, clientY }) => {
+    if (isPainting) {
+        draw(clientX, clientY)
+    }
+})
+
+canvas.addEventListener("mouseup", ({ clientX, clientY }) => {
+    isPainting = false
 })
 
 const draw = (x, y) => {
