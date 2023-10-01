@@ -95,3 +95,7 @@ canvas {
     height: 30px;
 }
 
+.active {
+    background-color: #000000b0;
+}
+
